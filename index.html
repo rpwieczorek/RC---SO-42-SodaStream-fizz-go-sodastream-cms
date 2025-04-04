@@ -287,6 +287,7 @@
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
+  display: flex;
 }
 #es-fizzgo.es-fizzgo .es-styleDesktop__circle {
   position: absolute;
@@ -1360,7 +1361,13 @@
     <div class="es-video">
       <div class="es-video__container">
         <div class="es-video__wrapper">
-          <iframe src="https://www.youtube.com/embed/D9kEdZHtD2o?si=Kobv-siNvTulwU2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; rel=0" allowfullscreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/D9kEdZHtD2o?rel=0&modestbranding=1&showinfo=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
